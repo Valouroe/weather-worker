@@ -1,0 +1,17 @@
+version: '3'
+services:
+  weather-app:
+    build: .
+    container_name: weather-container
+    ports:
+      - "5000:5000"
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - weather-app

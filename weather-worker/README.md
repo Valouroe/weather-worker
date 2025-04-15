@@ -1,0 +1,2 @@
+# Weather-App
+This web app allows a user to enter a city and then the current weather in Celsius is displayed along wwith the description of the weather (what the weather is) and an image of the weather(what it looks like). It uses HTML/CSS to provide create elements and style the webpage and the display which the user sees while JavaScript is used to provide the temperature,description, and image for each weather as well as interact with the API through Cloudflare Worker. A Docker file is also included because the web app has been containerized.

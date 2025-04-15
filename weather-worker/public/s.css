@@ -1,0 +1,15 @@
+.card{
+    width:90%;
+    max-width:470px;
+    background-color: cyan;
+    margin:100px auto 0;
+    border-radius:20px;
+    padding:40px 35px;
+    text-align:center;
+}
+.card p{
+    display:none;
+}
+.card p{
+    background-color:darkseagreen
+}

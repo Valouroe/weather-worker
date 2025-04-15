@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s.css" type="text/css">
+    <!-- "/static/s.css" -->
+</head>
+<body>
+    <input type="text" id="cityInput" placeholder="Enter city" />
+    <button onclick="getWeather()">Get Weather</button>
+    <br>
+    <div class="card">
+        <div class="weather">
+            <p id="des"></p>
+            <h1 id="description">--</h1>
+            <img src="" id="weather-icon">
+            <h1 class="temp" id="temp">--°C</h1>
+            <h2 class="city" id="city">--</h2>
+        </div>
+    </div>
+    
+    <!-- <div class="weather">
+        <p id="des">{{ desc }}</p>
+        <h1>{{ description }}</h1>
+        <img src="" id="weather-icon">
+        <h1 class="temp">{{ temp }}°C</h1>
+        <h2 class="city">{{ city }}</h2>
+    </div>  -->
+</body>
+<script src="script.js"></script>
+</html>
